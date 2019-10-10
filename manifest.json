@@ -1,0 +1,25 @@
+{
+  "name": "Premier Tour Helper",
+  "version": "1.2.2",
+  "description": "An extention to improve your experience on the premier tour website",
+  "permissions": [],
+  "background": {
+    "scripts": []
+  },
+  "icons": {
+    "32": "images/icon232.png",
+    "48": "images/icon248.png",
+    "128": "images/icon2128.png"
+  },
+  "content_scripts": [ 
+    {
+   "js": ["premierTourHelperLib.js","teamPage.js"],
+   "matches": [ "*://www.premiertour.gg/*/leagues/teams/*" ]
+  },
+  {
+    "js": ["premierTourHelperLib.js","matchPage.js"],
+    "matches": [ "*://www.premiertour.gg/*/leagues/matches/*" ]
+   }
+],
+  "manifest_version": 2
+}
