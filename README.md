@@ -1,5 +1,6 @@
 # League of Legends Scouting Helper
-An extention to help your scout opponents both on premiertour as well as for Uni Liga germany. Premiertour functionality is avaiable as a standalone under Prenier Tour Helper
+An extention to help you scout opponents both on premiertour, as well as for Uni Liga germany. 
+Premiertour functionality is avaiable as a standalone under Premier Tour Helper
 
 ### Features:
  - Automatic op.gg multi-link on each teams page.
