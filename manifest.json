@@ -1,7 +1,7 @@
 {
-  "name": "Premier Tour Helper",
-  "version": "1.2.2",
-  "description": "An extention to improve your experience on the premier tour website",
+  "name": "League of Legends Scouting Helper",
+  "version": "1.0",
+  "description": "An extention to help your scout opponents both on premiertour as well as for Uni Liga germany. Premiertour functionality is avaiable as a standalone under Prenier Tour Helper",
   "permissions": [],
   "background": {
     "scripts": []
@@ -19,6 +19,10 @@
   {
     "js": ["premierTourHelperLib.js","matchPage.js"],
     "matches": [ "*://www.premiertour.gg/*/leagues/matches/*" ]
+   },
+   {
+    "js": ["premierTourHelperLib.js","toornamentMatchPage.js"],
+    "matches": [ "*://www.toornament.com/*/tournaments/2846070131638657024/matches/*/players" ]
    }
 ],
   "manifest_version": 2
