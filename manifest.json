@@ -1,7 +1,7 @@
 {
   "name": "League of Legends Scouting Helper",
-  "version": "1.0",
-  "description": "An extention to help your scout opponents both on premiertour as well as for Uni Liga germany.",
+  "version": "1.2",
+  "description": "An extention to help you scout your opponents both on premiertour as well as for Uni Liga germany.",
   "permissions": [],
   "background": {
     "scripts": []
@@ -22,7 +22,8 @@
    },
    {
     "js": ["premierTourHelperLib.js","toornamentMatchPage.js"],
-    "matches": [ "*://www.toornament.com/*/tournaments/2846070131638657024/matches/*/players" ]
+    "matches": [ "*://www.toornament.com/*/tournaments/*/matches/*/players",
+                 "*://www.toornament.com/*/tournaments/*/participants/*/info"]
    }
 ],
   "manifest_version": 2
