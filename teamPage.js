@@ -49,7 +49,7 @@ function loadSummonerNames() {
 
         var title = childDiv.getAttribute("title");
         if (title != null) {
-            if (title.includes("LoL Summoner Name")) {
+            if (title.includes("League of Legends » LoL Riot ID (EU West)")) {
 				var summonerName = infoDivs[index].firstElementChild.innerText;
                 allSummonerNames.push(summonerName);
 				
